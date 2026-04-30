@@ -17,7 +17,11 @@
 **git push -u origin main**
 
 ## Show commit history
+Show with a graph:
 **git log --oneline --graph --all**
+
+Show just the commits in reverse order (olderst at the top):
+**git log --oneline --reverse**
 
 ## Look to a previous commit
 If you want to look to a **previous commit**:

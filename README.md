@@ -30,3 +30,14 @@ If you want to look to a **previous commit**:
 To switch back to the **main branch**:
 **git checkout main**
 
+## Move the repository back to a specific commit (HARD WAY)
+
+1.Make sure you are on main:
+**git checkout main**
+
+2.Reset the branch to an old commit:
+**git reset --hard "commit hash" 
+WARNING: this will delete any current changes, the folder will look exactly like it di then.
+
+3.Push to the remote host
+**git push origin main --force**

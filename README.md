@@ -20,7 +20,7 @@
 **git log --oneline --graph --all**
 
 ## Look to a previous commit
-If you want to temporarily to a **previous commit**:
+If you want to look to a **previous commit**:
 **git checkout "commit-hash"**
 
 To switch back to the **main branch**:

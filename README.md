@@ -23,6 +23,9 @@ Show with a graph:
 Show just the commits in reverse order (olderst at the top):
 **git log --oneline --reverse**
 
+Show the last 5 commits:
+**git log --oneline --reverse -n 5**
+
 ## Look to a previous commit
 If you want to look to a **previous commit**:
 **git checkout "commit-hash"**
